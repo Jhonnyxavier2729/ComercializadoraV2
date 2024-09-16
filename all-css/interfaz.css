@@ -1,0 +1,25 @@
+
+
+  /* Style for icons */
+  .icon-link i {
+    margin-bottom: 15px; /* Space between icon and text */
+    color: #f57c00; /* Icon color */
+  }
+
+  /* Style for card titles */
+  .card-title {
+    color: black; /* Default color for the title */
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+
+  /* Change color on hover */
+  .card-title:hover {
+    color: #f57c00; /* Color when mouse is over the title */
+  }
+
+
+ 
+
+ 
+  
+

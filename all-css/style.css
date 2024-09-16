@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f57c00; /* Naranja */
+  }
+  
+  .login-container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #f57c00; /* Naranja */
+  }
+  
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f57c00; /* Naranja */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: #e66a00; /* Naranja oscuro */
+  }
+  
+
+  
